@@ -1,0 +1,42 @@
+###########
+ervice mesh nada mais é que uma lista de serviços,
+para rastrear o ambiente. 
+
+quando trabalhamos com service mesh ele facilita nossa vida em relacao a comunicacao do nosso sistema, 
+conseguimos monitorar todo o ambiente
+
+iremos usar istio com k8s
+
+o Mundo distribuido
+
+o grande ponto dos mcs e que eles precisam se comunicar, 
+um precisa chamar o outro de forma instantanea. 
+
+- Service-Mesh 
+É uma camada extra adicionada junto ao seu cluster visando
+monitorar e modificar em tempo real o trafego das aplicações, bem como elevar o nivel de segurança e confiabilidade 
+de todo o ecossistema. 
+- Istio 
+Projeto  open-source que implementa service-mesh visando diminuir a complexidade no gerenciamento de aplicações distribuidas
+independente de quall linguagem ou tecnologia esta sendo desenvolvida 
+
+
+Porque preciso de um service-mesh?
+
+*Gerenciamento de trafego
+ * Gateways (entrada e saida);
+ * Load balancing;
+ * Timeout;
+ * Politica de retry:
+ * Circuit Breaker
+ * Fault Injection
+* Observabilidade
+  * Métricas
+  * Traces distribuidas
+  * logs
+* Segurança
+  * Man-in-the-middle
+  * mTLS(mutual tls) 
+  * AAA(Authentication, Authorization e Audit)
+
+ 
