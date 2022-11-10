@@ -8,4 +8,5 @@ WORKDIR /app
 COPY --from=build /app/server .
 ENTRYPOINT ["./server"]
 
+
 #pedrohedro/gitops-fc:latest
